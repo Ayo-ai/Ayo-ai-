@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: none;
+    margin: 20px;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    color: #00abf0;
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+
+}
+.logo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.219);
+    z-index: -1;
+    transition: 2s;
+    color: rgb(143, 8, 8);
+    transition: 12s;
+}
+.logo:hover::before{
+    width: 100%;
+    color: rgba(255, 0, 0, 0.829);
+}
+.spek{
+    color: #00abf0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 150px;
+    color: white;
+    width: -90px;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color: #00abf0;
+}
+.y{
+    color: #00abf0;
+}
+.cover{
+    display: ;
+    justify-content: none;
+    color: white;
+    margin: 50px;
+}
+.kk{
+    color: #00abf0;
+}
+.bod{
+    font-size: 50px;
+}
+.h2{
+    max-width: 60rem;
+    font-size: 30px;
+}
+.cover .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    background: ;
+}
+.btn-box a{
+
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    transition: 3s;
+}
+.btn-box a:hover{
+color: white;
+}
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: #00abf0;
+}
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 8px;
+    background: black;
+    z-index: -1;
+    transition: 2s;
+    color: white;
+}
+.btn-box a:hover::before{
+    width: 100%;
+}
+.btn-box a:nth-child(2) {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+.btn-box a:nth-child(2)::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 8px;
+    background: #00abf0;
+    z-index: -1;
+    transition: 2s;
+    color: white;
+}
+.btn-box a:nth-child(2):hover:before{
+    width: 100%;
+}
+.btn-box a:nth-child(2):hover{
+    color: black;
+}
